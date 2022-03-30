@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*   {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+	background-color: #336E56;
+}
+
+header nav{
+    background-color: #173830;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 80px;
+}
+
+header nav .logo{
+	height: 80px;
+}
+
+header nav ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header nav ul a{
+	color: #fff;
+	text-decoration: none;
+	margin: 0 1rem;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+    list-style: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+header nav ul a:hover{
+	color: #ffc444;
+	}
+
+header nav ul a:hover, a:focus {
+    background-size: 100% 2px;
+}	
+	
+header nav .icon i{
+	color: #fff;
+	margin: 0 1rem;
+	cursor: pointer;
+}
+
+header nav .icon i:hover{
+	color: #ffc444 ;
+
+}
+
+.fondo {
+	background-image: url("https://images.pexels.com/photos/1537635/pexels-photo-1537635.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-repeat: no-repeat;
+    background-position: center;
+	height: 460px;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.seccion2 {
+	position: absolute;
+	top: 80px;
+	text-align: center;
+	height: 460px;
+    width: 100%;
+}
+
+
+.slogan {
+    position: relative;
+    top: 150px;
+	color: azure;
+	font-size: 40px;
+	text-shadow: 
+    -1px 1px 2px #000,
+    1px 1px 2px #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+    letter-spacing: 2px;
+}
+
+
+.slogan h1 span{
+	color: #741d0e;
+}
+
+
+.seccion3 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #173830;
+	margin: 20px;
+	border-radius: 50px;
+	height: 500px;
+	
+}
+
+.pizza {
+	height: 500px;
+	width: 500px;
+	margin: 10px;
+	padding-bottom: 20px;
+}
+
+.aboutUs {
+	font-size: 40px;
+	text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+	margin-left: 10px;
+	margin-right: 100px;
+	color: rgb(255, 245, 224);
+	margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.social-icon{
+	display: flex;
+	flex-direction: column;
+	height: 250px;
+	width: 100px;
+	color: #ffffff;
+}
+
+.social-icon a {
+	padding: 10px;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	margin: .2rem 0;
+	justify-content: center;
+	align-items: center;
+}
+.social-icon a i{
+	font-size: 25px;
+}
+.social-icon .fb-icon{
+	background: #4267B2;
+}
+.social-icon .twit-icon{
+	background: #00acee;
+}
+.social-icon .yt-icon{
+	background: #FF0000;
+}
+.social-icon .wp-icon{
+	background: #075E54;
+}
+.social-icon .lnk-icon{
+	background: #0e76a8;
+}
+
+.random {
+	height: 3px;
+	width: 100%;
+	background-color:rgb(0, 0, 0) ;
+	border-radius: 5px;
+}
